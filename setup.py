@@ -6,7 +6,7 @@ setup(
     description='',
     author='Lukas Deutz',
     url='git@github.com:LukasDeutz/ai-art.git',
-    packages=find_packages(where='ai_art', include = ['optimizers'])
+    packages=find_packages(where='ai_art', include = ['ai_art.optimizers'])
     # install_requires=[
     #     'numpy==1.19.5',
     #     'matplotlib==3.3.3',

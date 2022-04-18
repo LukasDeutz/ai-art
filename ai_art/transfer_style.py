@@ -4,8 +4,8 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras import backend as K
 from tensorflow.keras.applications.vgg19 import VGG19
-from normalize import normalize, denormalize
-from loss_functions import content_loss, style_loss, total_variation_loss
+from .normalize import normalize, denormalize
+from .loss_functions import content_loss, style_loss, total_variation_loss
 
 # the template for the class's __repr__ method
 TEMPLATE = """{}(
